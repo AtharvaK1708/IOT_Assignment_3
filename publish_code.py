@@ -36,4 +36,4 @@ if __name__ == "__main__":
     while True:
         temp, hum, co2 = generate_sensor_data()
         publish_data(temp, hum, co2)
-        time.sleep(10)  # publish after every 1 minute
+        time.sleep(60)  # publish after every 1 minute
